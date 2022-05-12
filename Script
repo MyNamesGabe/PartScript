@@ -1,0 +1,12 @@
+local part = instance.new("Part")
+local dumb = instance.new("Decal")
+
+part.parent = Workspace
+part.size = UDim2.new(12, 1, 12)
+part.position = UDim2.new(10, -0.5, 46)
+
+dumb.parent = part
+dumb.Texture = "http://www.roblox.com/asset/?id=9606756103"
+dumb.Transparency = 0
+dumb.Face = Top
+dumb.Zindex = 1
